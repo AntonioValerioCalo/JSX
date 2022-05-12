@@ -1,12 +1,14 @@
 import React from "react";
-import HelloName from "./HelloName";
+
+import Two from "./Two";
 
 
 export class App extends React.Component{
     render(){
         return(
             <div>
-            <HelloName name="Eddie"/>
+            
+            <Two/>
             </div>
         ) 
     }
